@@ -1,0 +1,27 @@
+/* Stuck menu styles
+========================================================*/
+.isStuck {
+  padding: 0 32px;
+  z-index: 9999;
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+  background: #3b3b3b;
+}
+.isStuck nav.tm_navbar li a {
+  line-height: 56px;
+}
+.isStuck.indent {
+  background: #000;
+  background: rgba(0, 0, 0, 0.75);
+}
+.isStuck h1.navbar-brand_ {
+  margin: 5px 0 0 0;
+}
+.isStuck h1.navbar-brand_ img {
+  width: 60%;
+}
+@media only screen and (max-width: 979px) {
+  .isStuck {
+    display: none !important;
+  }
+}
